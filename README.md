@@ -5,7 +5,8 @@ That's what Comfier Syscalls achieves for you; it allows you to call undocumente
 This implementation assumes a non-modified ntdll.dll in your process!  
 
 You can either implement your own skeletons and wrap the syscall stub inside of a function like so:  
-[Example Implementation](https://www.blanche.dev/img/ComfierSyscalls2.png)
+[Example Implementation](https://www.blanche.dev/img/ComfierSyscalls2.png)  
+
 Or simply use the Syscall function that allows you to dynamically call with the routine name:  
 [Example Implementation without Skeleton](https://www.blanche.dev/img/ComfierSyscalls3.png)
 
